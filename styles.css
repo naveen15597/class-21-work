@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+.user-list{
+    background-color: yellow;
+    width: 28rem;
+    border-radius: 2rem;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.msg{
+    margin-left: 2rem;
+    
+}
+
+.top-menu{
+    margin-left: 2rem;
+}
+
+img{    
+    border-radius: 4rem;
+    width: 8rem;
+}
+
+.user-container{
+    display: flex;
+    padding: 1rem;
+    margin: 1rem;
+    background-image: linear-gradient(to left top, #e7c3c1, #e59fa9, #dc7b9e, #cb589d, #ae37a5);
+    border-radius: 2rem;
+    font-family: 'Sacramento', cursive;
+    
+}
+.user-container:hover{
+    transform: scale(1.1);
+    transition: all 0.2s;
+}
